@@ -3,10 +3,27 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>meu site 1</title>
+    <title>formulario 2</title>
 </head>
 <body>
-<h1 style="background-color: rgba(6, 109, 134, 0.555);"> ola isto é só um teste para o mau projeto final!</h1>
-<p>se quiseres tu pode acessar o meu <a href="https://http://.youtube.com/@kaliltavares9000" target="_blank" rel="external">canal gratuito no youtube</a></p>   
+  <h1>exemplo de formulario 2</h1>
+  <form action="cadastro.php" method="post" autocomplete="on">
+    <p>
+      <label for="icor">cor: </label>
+      <input type="color" name="cor" id="icor" value="#00ff00">
+    </p>
+<p>
+    <label for="inivel">nivel de satisfação</label>
+    <input type="range" name="nivel" id="inivel" min="1" max="5">
+</p>
+<p>
+    <label for="ifoto">foto de perfil</label>
+    <input type="file" name="foto" id="ifoto">
+</p>
+<p>
+    <input type="submit" value="enviar">
+    <input type="reset" value="limpar">
+</p>
+  </form>
 </body>
-</html>9
+</html>
